@@ -89,41 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/fxtec/pro1/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/fxtec/pro1/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
-    vendor/fxtec/pro1/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/fxtec/pro1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.camera.jar:system/framework/com.qualcomm.qti.camera.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/fxtec/pro1/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/fxtec/pro1/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/fxtec/pro1/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/fxtec/pro1/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/fxtec/pro1/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:system/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:system/framework/vendor.qti.hardware.soter-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.latency-V2.0-java.jar:system/framework/vendor.qti.latency-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.voiceprint-V1.0-java.jar:system/framework/vendor.qti.voiceprint-V1.0-java.jar \
     vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -811,7 +776,6 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8998.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
-    vendor/fxtec/pro1/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/blestech.fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/blestech.fingerprint.default.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -1100,19 +1064,18 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    libsdm-disp-vndapis \
-    QtiTelephonyService \
-    datastatusnotification \
-    embms \
-    imssettings \
-    CNEService \
-    WfdService \
-    com.qualcomm.location \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
-    WfdCommon
-endif
+    libsdm-disp-vndapis
 
+#     QtiTelephonyService \
+#     datastatusnotification \
+#     embms \
+#     imssettings \
+#     CNEService \
+#     WfdService \
+#     dpmserviceapp \
+#     ims \
+#     qcrilmsgtunnel \
+#     PowerOffAlarm \
+#     TimeService \
+#     WfdCommon
+endif
